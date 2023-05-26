@@ -553,6 +553,7 @@ img {
   margin-bottom: 16px;
 }
 .email-subscribe {
+  display: flex;
   height: 40px;
 }
 .footer-subscribe-input {
