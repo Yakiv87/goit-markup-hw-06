@@ -539,6 +539,9 @@ img {
   background-color: #31d0aa;
 }
 /* Subscribe */
+.footer-email {
+  margin-left: 80px;
+}
 .footer-subs {
   color: #ffffff;
   font-family: 'Roboto';
@@ -547,6 +550,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .footer-subscribe-input {
   border: 1px solid #ffffff;
