@@ -567,6 +567,8 @@ img {
 }
 .btn-subscribe {
   display: flex;
+  min-width: 165px;
+  height: 40px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
