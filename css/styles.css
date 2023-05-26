@@ -538,6 +538,14 @@ img {
 .footer-social-list-link:focus {
   background-color: #31d0aa;
 }
+/* Subscribe */
+
+.footer-subscribe-input {
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
 
 /* Portfolio */
 .portfolio {
