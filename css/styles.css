@@ -781,6 +781,7 @@ img {
 .contact-form-comment {
   display: block;
   width: 100%;
+  height: 138px;
 }
 .contact-form-field-desc {
   font-family: 'Roboto';
