@@ -802,3 +802,6 @@ img {
   position: relative;
   display: block;
 }
+.contact-form-input:focus + .contact-form-icon {
+  background: #4D5AE5;
+}
