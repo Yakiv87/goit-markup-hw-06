@@ -803,5 +803,5 @@ img {
   display: block;
 }
 .contact-form-input:focus + .contact-form-icon {
-  background: #4D5AE5;
+background-color: #4D5AE5;
 }
