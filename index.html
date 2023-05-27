@@ -559,6 +559,24 @@
               pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
             />
           </label>
+          <label class="contact-form-field"
+            >Phone
+            <input
+              class="contact-form-input"
+              type="text"
+              name="user_tel"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            />
+          </label>
+          <label class="contact-form-field"
+            >Email
+            <input class="contact-form-input" type="text" name="user_email" required />
+          </label>
+          <label class="contact-form-field"
+            >Comment
+            <input class="contact-form-input" type="text" name="user_comment" />
+          </label>
           <button class="contact-form-btn" type="submit">Send</button>
         </form>
       </div>
