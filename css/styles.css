@@ -837,3 +837,6 @@ img {
   padding: 2.75px;
   cursor: pointer;
 }
+.contact-form-checkbox-icon {
+   opacity: 0;
+}
