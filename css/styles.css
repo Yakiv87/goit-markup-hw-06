@@ -790,6 +790,9 @@ img {
 }
 .contact-form-icon {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
   }
 .contact-form-item {
   position: relative;
