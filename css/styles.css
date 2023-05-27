@@ -754,3 +754,6 @@ img {
   fill: #ffffff;
 }
 /* contact-form  */
+.contact-form-field {
+  display: block;
+}
