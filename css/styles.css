@@ -759,3 +759,8 @@ img {
 .contact-form-comment {
   display: block;
 }
+.contact-form-input,
+.contact-form-input
+ {
+  width: 100%;
+}
