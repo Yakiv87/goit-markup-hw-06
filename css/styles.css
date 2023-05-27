@@ -819,7 +819,7 @@ img {
 .contact-form-input:focus + .contact-form-icon {
   fill: #4d5ae5;
 }
-.contact-form-checkbox {
+.contact-form-checkbox-wrapper {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -827,5 +827,9 @@ font-size: 12px;
 line-height: 1.2;
 letter-spacing: 0.04em;
 color: #8E8F99;
+}
+.privacy-policy {
+text-decoration-line: underline;
+color: #4D5AE5;
 
 }
