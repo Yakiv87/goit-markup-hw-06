@@ -819,7 +819,7 @@ img {
   fill: #4d5ae5;
 }
 .contact-form-checkbox-wrapper {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-family: 'Roboto';
   font-style: normal;
