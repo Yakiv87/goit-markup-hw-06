@@ -857,3 +857,19 @@ img {
   appearance: none;
   position: absolute;
 }
+.contact-form-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 16px 32px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: none;
+margin-left: auto;
+margin-right: auto;
+margin-top: 24px;
+margin-bottom: 24px;
+width: 169px;
+height: 56px;
+}
