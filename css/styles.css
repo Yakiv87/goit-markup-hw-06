@@ -755,6 +755,7 @@ img {
 }
 /* contact-form  */
 .contact-form-field,
-.contact-form-checkbox-wrapper {
+.contact-form-checkbox-wrapper,
+.contact-form-comment {
   display: block;
 }
