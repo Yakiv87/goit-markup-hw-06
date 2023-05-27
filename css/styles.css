@@ -774,6 +774,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 16px;
 }
 .contact-form-field,
 .contact-form-checkbox-wrapper {
@@ -859,10 +860,10 @@ img {
 
 .contact-form-checkbox:focus + .contact-form-own-checkbox {
   background: #404bbf;
-
 }
 
-.contact-form-checkbox:checked,:focus + .contact-form-own-checkbox .contact-form-checkbox-icon {
+.contact-form-checkbox:checked,
+:focus + .contact-form-own-checkbox .contact-form-checkbox-icon {
   opacity: 1;
 }
 .contact-form-checkbox {
@@ -870,18 +871,18 @@ img {
   position: absolute;
 }
 .contact-form-btn {
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 16px 32px;
-background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: none;
-margin-left: auto;
-margin-right: auto;
-margin-top: 24px;
-margin-bottom: 24px;
-width: 169px;
-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 169px;
+  height: 56px;
 }
