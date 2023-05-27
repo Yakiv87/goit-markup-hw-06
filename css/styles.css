@@ -754,6 +754,7 @@ img {
   fill: #ffffff;
 }
 /* contact-form  */
-.contact-form-field {
+.contact-form-field,
+.contact-form-checkbox-wrapper {
   display: block;
 }
