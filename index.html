@@ -532,7 +532,7 @@
             </label>
             <button type="submit" class="btn-subscribe">
               Subscribe
-              <svg class="footer-email-icon" aria-label="icon-icon-send" width="24" height="24">
+              <svg class="footer-email-icon" aria-label="icon-send" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
@@ -540,13 +540,27 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <!--backdrop is-hidden -->
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-modal"></use>
           </svg>
         </button>
+        <form class="contact-form">
+          <label class="contact-form-field"
+            >Name
+            <input
+              class="contact-form-input"
+              type="text"
+              name="user_name"
+              required
+              pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
+            />
+          </label>
+          <button class="contact-form-btn" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
