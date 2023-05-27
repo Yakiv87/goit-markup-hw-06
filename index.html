@@ -551,12 +551,13 @@
         <p class="contact-modal-title">Leave your contacts and we will call you back</p>
         <form class="contact-form">
           <div class="contact-form-field-wrapper">
-            <label class="contact-form-field"> Name</label>
+            <label class="contact-form-field" for="user-name">Name</label>
             <div class="contact-form-item">
-              <input
+              <input class="contact-form-input"
+              id="user-name"
                 class="contact-form-input"
                 type="text"
-                name="user_name"
+                name="user-name"
                 required
                 pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
               />
@@ -568,8 +569,7 @@
           <div class="contact-form-field-wrapper">
             <label class="contact-form-field"> Phone</label>
             <div class="contact-form-item">
-              <input
-                class="contact-form-input"
+              <input class="contact-form-input"
                 type="tel"
                 name="user_tel"
                 required
@@ -590,12 +590,12 @@
               </svg>
             </div>
           </div>
-          <div class="contact-form-field-wrapper">
-            <label class="contact-form-field"> Comment</label>
+          <div class="contact-form-field-textarea">
+            <label class="contact-form-field" for="user-comment"> Comment</label>
             <textarea
               class="contact-form-comment"
-              name="user_comment"
-              placeholder="Text-input"
+              name="user-comment"
+              placeholder="Text input"
             ></textarea>
           </div>
           <div class="contact-form-field-wrapper">
