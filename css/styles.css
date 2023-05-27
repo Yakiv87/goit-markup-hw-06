@@ -791,3 +791,6 @@ img {
 .contact-form-icon {
   position: absolute;
 }
+.contact-form-item {
+  position: relative;
+}
