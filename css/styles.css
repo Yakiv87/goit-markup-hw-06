@@ -765,6 +765,9 @@ img {
   fill: #ffffff;
 }
 /* contact-form  */
+.contact-form-field-wrapper {
+  margin-bottom: 8px;
+}
 .contact-modal-title {
   font-family: 'Roboto';
   font-style: normal;
@@ -779,6 +782,14 @@ img {
 .contact-form-field,
 .contact-form-checkbox-wrapper {
   display: block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
 }
 .contact-form-input {
   padding-left: 38px;
