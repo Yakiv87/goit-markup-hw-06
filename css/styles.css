@@ -767,7 +767,7 @@ color: #2E2F42;
 .contact-form-checkbox-wrapper
  {
   display: block;
-}
+ }
 .contact-form-input
  {
   padding-left: 38px;
@@ -779,5 +779,15 @@ color: #2E2F42;
 .contact-form-comment {
   display: block;
   width: 100%;
+  }
+  .contact-form-field-desc {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.2;
+letter-spacing: 0.04em;
+color: #8E8F99;
+margin-bottom: 4px;
   }
   
