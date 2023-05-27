@@ -785,6 +785,13 @@ img {
   resize: none;
   padding-top: 8px;
   padding-left: 16px;
+  line-height: 1.4;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+.contact-form-comment:focus {
+  outline: none;
+  border-color: #4d5ae5;
 }
 .contact-form-field-desc {
   font-family: 'Roboto';
