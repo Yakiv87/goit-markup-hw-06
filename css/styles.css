@@ -790,7 +790,6 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 .contact-form-comment:focus {
   outline: none;
@@ -820,15 +819,21 @@ img {
   fill: #4d5ae5;
 }
 .contact-form-checkbox-wrapper {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.2;
-letter-spacing: 0.04em;
-color: #8E8F99;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .privacy-policy {
-text-decoration-line: underline;
-color: #4D5AE5;
+  text-decoration-line: underline;
+  color: #4d5ae5;
+}
+.contact-form-own-checkbox {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  padding: 2.75px;
+  cursor: pointer;
 }
