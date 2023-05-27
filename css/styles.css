@@ -838,14 +838,14 @@ img {
   cursor: pointer;
 }
 .contact-form-checkbox-icon {
-opacity: 0;
+  opacity: 0;
 }
 .contact-form-checkbox:checked + .contact-form-own-checkbox {
-  background: #404BBF;
-    }
-    .contact-form-checkbox:checked + .contact-form-own-checkbox .contact-form-checkbox-icon {
-      opacity: 1;
-    }
-  .contact-form-checkbox {
-    appearance: none;
-  }
+  background: #404bbf;
+}
+.contact-form-checkbox:checked + .contact-form-own-checkbox .contact-form-checkbox-icon {
+  opacity: 1;
+}
+.contact-form-checkbox {
+  appearance: none;
+}
