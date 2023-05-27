@@ -883,9 +883,9 @@ img {
   cursor: pointer;
   margin-right: 8px;
 }
-.contact-form-checkbox-icon {
+/* .contact-form-checkbox-icon { 
   opacity: 0;
-}
+}*/
 /* .contact-form-checkbox:focus + .contact-form-own-checkbox { 
   background-color: var(--portfolio-btn-color);
   border: none;
