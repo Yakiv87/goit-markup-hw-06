@@ -792,7 +792,7 @@ img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
+  left: 16px;
   }
 .contact-form-item {
   position: relative;
