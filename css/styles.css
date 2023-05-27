@@ -590,6 +590,9 @@ img {
   color: #ffffff;
   border: none;
 }
+.footer-email-icon {
+  margin-left: 16px;
+}
 /* Portfolio */
 .portfolio {
   padding: 96px 0 120px;
