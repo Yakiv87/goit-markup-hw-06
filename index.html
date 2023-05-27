@@ -553,8 +553,9 @@
           <div class="contact-form-field-wrapper">
             <label class="contact-form-field" for="user-name">Name</label>
             <div class="contact-form-item">
-              <input class="contact-form-input"
-              id="user-name"
+              <input
+                class="contact-form-input"
+                id="user-name"
                 class="contact-form-input"
                 type="text"
                 name="user-name"
@@ -569,7 +570,8 @@
           <div class="contact-form-field-wrapper">
             <label class="contact-form-field"> Phone</label>
             <div class="contact-form-item">
-              <input class="contact-form-input"
+              <input
+                class="contact-form-input"
                 type="tel"
                 name="user_tel"
                 required
@@ -598,21 +600,32 @@
               placeholder="Text input"
             ></textarea>
           </div>
+          <!-- check box -->
           <div class="contact-form-field-checkbox">
-            <label class="contact-form-checkbox-wrapper">
-              <input class="contact-form-checkbox" type="checkbox" name="user_policy" required />
-              <svg
-                class="contact-form-own-checkbox"
-                aria-label="icon-checkbox"
-                width="16"
-                height="16"
+            <input
+              class="contact-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              required
+            />
+            <label class="contact-form-checkbox-wrapper" for="user-privacy"
+              >I accept the terms and conditions of the
+              <span class="contact-form-checkbox-icon">
+                <svg
+                  class="contact-form-own-checkbox"
+                  aria-label="icon-checkbox"
+                  width="10"
+                  height="8"
+                >
+                  <use
+                    class="contact-form-checkbox-icon"
+                    href="./images/icons.svg#icon-checkmark"
+                  ></use>
+                </svg>
+                ></span
               >
-                <use
-                  class="contact-form-checkbox-icon"
-                  href="./images/icons.svg#icon-checkmark"
-                ></use>
-              </svg>
-              I accept the terms and conditions of the
               <a class="privacy-policy" href="">Privacy Policy</a>
             </label>
           </div>
