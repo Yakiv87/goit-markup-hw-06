@@ -775,7 +775,7 @@ img {
   border-radius: 4px;
 }
 .contact-form-input:focus {
-  border: 1px solid #4D5AE5;
+  border: 1px solid #4d5ae5;
   outline: none;
 }
 .contact-form-comment {
@@ -797,11 +797,11 @@ img {
   top: 50%;
   transform: translateY(-50%);
   left: 16px;
-  }
+}
 .contact-form-item {
   position: relative;
   display: block;
 }
 .contact-form-input:focus + .contact-form-icon {
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
