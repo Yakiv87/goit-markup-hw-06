@@ -886,6 +886,7 @@ img {
   padding: 2.75px;
   cursor: pointer;
   margin-right: 8px;
+  display: inline-flex;
   }
  .contact-form-checkbox:focus + .contact-form-checkbox-icon {  
   background-color: var(--portfolio-btn-color);
