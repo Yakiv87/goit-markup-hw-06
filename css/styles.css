@@ -900,9 +900,9 @@ img {
   color: var(--second-color-btn);
   padding-left: 4px;
   }
-.contact-form-checkbox {
+/* .contact-form-checkbox { 
   position: absolute;
-}
+}*/
 .contact-form-btn {
   display: block;
   align-items: center;
