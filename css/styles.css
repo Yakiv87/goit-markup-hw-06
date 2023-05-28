@@ -856,7 +856,7 @@ img {
 /* checkbox */
 
 .contact-form-checkbox-wrapper {
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   font-family: 'Roboto';
   font-style: normal;
