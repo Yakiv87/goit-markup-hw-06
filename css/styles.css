@@ -571,6 +571,17 @@ img {
   background-color: transparent;
   font-size: 12px;
   letter-spacing: 0.04em;
+  }
+.footer-subscribe-input::placeholder {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
 }
 .btn-subscribe {
   display: flex;
