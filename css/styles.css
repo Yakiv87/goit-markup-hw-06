@@ -848,6 +848,8 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  cursor: pointer;
+  margin-right: 8px;
 }
 .contact-form-icon {
   position: absolute;
@@ -876,27 +878,24 @@ img {
   padding-top: 16px;
 }
 
-.contact-form-own-checkbox {
+.contact-form-checkbox-icon {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   padding: 2.75px;
   cursor: pointer;
   margin-right: 8px;
-}
-/* .contact-form-checkbox-icon { 
-  opacity: 0;
-}*/
-/* .contact-form-checkbox:focus + .contact-form-own-checkbox { 
+  }
+/* .contact-form-checkbox:focus + .contact-form-checkbox-icon {  
   background-color: var(--portfolio-btn-color);
   border: none;
 }*/
-.contact-form-checkbox:checked,
-:focus + .contact-form-own-checkbox .contact-form-checkbox-icon {
+.contact-form-checkbox-wrapper:checked,
+:focus + .contact-form-own-checkbox {
   background-color: var(--portfolio-btn-color);
   border: none;
   fill: var(--primary-background-color);
   border-color: var(--portfolio-btn-color);
-  /* opacity: 1; */
+ opacity: 1; 
 }
 .privacy-policy {
   text-decoration-line: underline;
