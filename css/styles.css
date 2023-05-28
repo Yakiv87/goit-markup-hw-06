@@ -901,6 +901,7 @@ img {
 .privacy-policy {
   text-decoration-line: underline;
   color: var(--second-color-btn);
+  padding-left: 4px;
 }
 .contact-form-checkbox {
   position: absolute;
