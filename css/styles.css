@@ -888,11 +888,7 @@ img {
   margin-right: 8px;
   display: inline-flex;
   }
- .contact-form-checkbox:focus + .contact-form-checkbox-icon {  
-  background-color: var(--portfolio-btn-color);
-  border: none;
-}
-.contact-form-checkbox:checked + .contact-form-checkbox-icon {
+ .contact-form-checkbox:checked + .contact-form-checkbox-icon {
   background-color: var(--portfolio-btn-color);
   border: none;
   fill: #ffffff;
@@ -901,8 +897,7 @@ img {
 .privacy-policy {
   text-decoration-line: underline;
   color: var(--second-color-btn);
-  padding-left: 4px;
-}
+  }
 .contact-form-checkbox {
   position: absolute;
 }
